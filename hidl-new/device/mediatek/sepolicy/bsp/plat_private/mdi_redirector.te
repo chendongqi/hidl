@@ -1,0 +1,83 @@
+# ==============================================
+# Policy File of /system/bin/mdi_redirector Executable File
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type mdi_redirector_exec ,exec_type, file_type;
+type mdi_redirector, domain;
+
+typeattribute mdi_redirector coredomain;
+typeattribute mdi_redirector mlstrustedsubject;
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+init_daemon_domain(mdi_redirector)
+
+# Date : WK19.07 2019/02/15
+# Operation : mdi_redirector integration test with AT&T Linkmaster
+# Purpose : To allow mdi_redirector create socket to forward KPI to PC tool
+allow mdi_redirector fwmarkd_socket:sock_file write;
+allow mdi_redirector self:tcp_socket { create_stream_socket_perms };
+allow mdi_redirector self:udp_socket { create_stream_socket_perms };
+allow mdi_redirector netd:unix_stream_socket connectto;
+allow mdi_redirector property_socket:sock_file write;
+allow mdi_redirector node:tcp_socket node_bind;
+allow mdi_redirector port:tcp_socket name_bind;
+
+# Date : WK19.07 2019/02/15
+# Operation : mdi_redirector integration test with AT&T Linkmaster
+# Purpose : To allow mdi_redirector dump KPI raw data to sdcard
+allow mdi_redirector media_rw_data_file:dir { create_dir_perms };
+allow mdi_redirector media_rw_data_file:file { create_file_perms };
+allow mdi_redirector sdcardfs:dir { create_dir_perms };
+allow mdi_redirector sdcardfs:file { create_file_perms };
+allow mdi_redirector storage_file:lnk_file { create_file_perms };
+allow mdi_redirector system_file:file { rx_file_perms };
+allow mdi_redirector mnt_user_file:lnk_file { r_file_perms };
+allow mdi_redirector mnt_user_file:dir { r_dir_perms };
+
+# Date : WK19.07 2019/02/15
+# Operation : mdi_redirector integration test with AT&T Linkmaster
+# Purpose : To allow mdi_redirector to execute shell command
+allow mdi_redirector shell_exec:file { rx_file_perms };
+
+# Date : WK19.07 2019/02/15
+# Operation : mdi_redirector integration test with AT&T Linkmaster
+# Purpose : for mdi_redirector to connenct to md_monitor
+allow mdi_redirector md_monitor:unix_stream_socket connectto;
+
+# Date : WK19.07 2019/02/15
+# Operation : mdi_redirector integration test with AT&T Linkmaster
+# Purpose : for mdi_redirector to access /data/md_mon/
+allow mdi_redirector md_monitor_data_file:dir { r_dir_perms };
+allow mdi_redirector md_monitor_data_file:file { r_file_perms };
+
+# Date : WK19.07 2019/02/15
+# Operation : mdi_redirector integration test with AT&T Linkmaster
+# Purpose : Allow mdi_redirector to execute commands
+allow mdi_redirector toolbox_exec:file { rx_file_perms };
+
+# Date : WK19.07 2019/02/15
+# Operation : mdi_redirector integration test with AT&T Linkmaster
+# Purpose : Allow mdi_redirector to pull packet from netd
+allow mdi_redirector self:capability net_raw;
+allow mdi_redirector self:packet_socket { getopt create read write setopt};
+allowxperm mdi_redirector self:packet_socket ioctl {SIOCGIFINDEX SIOCGSTAMP };
+allow mdi_redirector self:packet_socket ioctl;
+
+#Date : W19.10 2019/03/05
+# Operation : mdi_redirector integration test with AT&T Linkmaster
+# Purpose : Allow mdi_redirector to start GPS Location Service through AMS
+allow mdi_redirector hwservicemanager_prop:file { r_file_perms };
+allow mdi_redirector servicemanager:binder call;
+allow mdi_redirector hwservicemanager:binder call;
+allow mdi_redirector system_server:binder call;
+allow servicemanager mdi_redirector:dir search;
+allow servicemanager mdi_redirector:file { read open };
+allow servicemanager mdi_redirector:process { getattr };
+allow mdi_redirector activity_service:service_manager find;

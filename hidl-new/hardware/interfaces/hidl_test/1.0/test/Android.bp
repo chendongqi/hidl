@@ -1,0 +1,16 @@
+cc_binary {
+    relative_install_path: "hw", 
+    defaults: ["hidl_defaults"],
+    name: "my_hidl_test_client",
+    proprietary: true,
+    srcs: ["TestClient.cpp"],
+
+    shared_libs: [
+        "liblog", 
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "libutils",
+        "android.hardware.hidl_test@1.0",
+    ],
+}

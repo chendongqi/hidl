@@ -1,0 +1,18 @@
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+userdebug_or_eng(`
+
+# Date : WK19.07 2019/02/15
+# Operation : mdi_redirector integration test with AT&T Linkmaster
+# Purpose : Allow shell to listen MAPI payload from network socket
+allow shell mdi_redirector:unix_stream_socket { connectto };
+
+# Date : WK19.07 2019/02/15
+# Operation : mdi_redirector integration test with AT&T Linkmaster
+# Purpose : Allow shell to execute mdi_redirector_ctrl to start md_monitor & mdi_redirector daemons
+set_prop(shell, ctl_start_prop);
+set_prop(shell, ctl_stop_prop);
+
+')

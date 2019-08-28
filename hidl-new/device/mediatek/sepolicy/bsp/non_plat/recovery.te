@@ -1,0 +1,42 @@
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+# recovery console (used in recovery init.rc for /sbin/recovery)
+
+# Date : WK15.13
+# Operation : UT
+# Purpose : Nand device policy
+allow recovery mtd_device:dir search;
+allow recovery mtd_device:chr_file { read write open ioctl getattr };
+allow recovery self:capability sys_resource;
+
+# Date : WK18.16
+# Operation : UT
+# Purpose : Refine policy
+allow recovery misc_sd_device:chr_file { read write ioctl open };
+allow recovery vfat:dir { read open search };
+allow recovery vfat:file { read getattr open };
+allow recovery sysfs_mmcblk:dir { read search };
+allow recovery sysfs_mmcblk:file { write read getattr open };
+allow recovery sysfs_mmcblk:lnk_file read;
+
+# Date : WK18.25
+# Operation : UT
+# Purpose : Add policy for therm, gpu, battery, and boot_type
+allow recovery sysfs:dir r_dir_perms;
+allow recovery sysfs_batteryinfo:dir r_dir_perms;
+allow recovery sysfs_boot_type:file r_file_perms;
+allow recovery sysfs_therm:dir r_dir_perms;
+allow recovery sysfs_therm:file r_file_perms;
+allow recovery gpu_device:dir r_dir_perms;
+
+# Date : WK18.09
+# Operation : UT
+# Purpose : Allow recovery can update boot partition
+allow recovery tmpfs:lnk_file read;
+allow recovery block_device:dir { create write add_name setattr };
+
+# Date : WK19.28
+# Operation : UT
+# Purpose : Allow recovery can update boot slot
+allow recovery self:capability sys_rawio;

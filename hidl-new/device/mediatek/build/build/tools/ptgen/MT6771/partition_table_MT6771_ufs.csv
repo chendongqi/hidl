@@ -1,0 +1,53 @@
+Partition_Name,Type,Size_KB,,Region,Reserved,Download,Download_File,OTA_Update,EmptyBoot_Needed,FastBoot_Erase,,FastBoot_Download,,Operation_Type
+,,eng,user,,,,,,,eng,user,eng,user,
+preloader,Raw data,512.0,,UFS_LU0_LU1,N,Y,AUTO,Y,N,N,,N,,BOOTLOADERS
+pgpt,Raw data,32.0,,UFS_LU2,N,N,NONE,N,N,Y,N,Y,N,AUTO
+boot_para,Raw data,1024.0,,UFS_LU2,N,N,NONE,N,N,N,,N,,AUTO
+recovery,Raw data,32768.0,,UFS_LU2,N,Y,recovery.img,Y,N,Y,,Y,,AUTO
+para,Raw data,512.0,,UFS_LU2,N,N,NONE,N,N,N,,N,,AUTO
+expdb,Raw data,20480.0,,UFS_LU2,N,N,NONE,N,N,N,,N,,AUTO
+frp,Raw data,1024.0,,UFS_LU2,N,N,NONE,N,N,N,,N,,AUTO
+vbmeta,Raw data,8192.0,,UFS_LU2,N,Y,vbmeta.img,Y,N,Y,,Y,,AUTO
+nvcfg,EXT4,32768.0,,UFS_LU2,N,N,NONE,N,N,N,,N,,PROTECTED
+nvdata,EXT4,65536.0,,UFS_LU2,N,N,NONE,N,N,N,,N,,AUTO
+metadata,Raw data,32768.0,,UFS_LU2,N,N,NONE,N,N,N,,N,,AUTO
+eng_system,EXT4,32768.0,,UFS_LU2,N,N,NONE,N,N,Y,,Y,,AUTO
+eng_vendor,EXT4,32768.0,,UFS_LU2,N,N,NONE,N,N,Y,,Y,,AUTO
+protect1,EXT4,8192.0,,UFS_LU2,N,N,NONE,N,N,N,,N,,PROTECTED
+protect2,EXT4,8192.0,,UFS_LU2,N,N,NONE,N,N,N,,N,,PROTECTED
+seccfg,Raw data,512.0,,UFS_LU2,N,N,NONE,N,N,N,,N,,AUTO
+persist,EXT4,49152.0,,UFS_LU2,N,N,NONE,N,N,N,,N,,PROTECTED
+sec1,Raw data,2048.0,,UFS_LU2,N,N,NONE,N,N,N,,N,,AUTO
+proinfo,Raw data,3072.0,,UFS_LU2,N,N,NONE,N,N,N,,N,,PROTECTED
+efuse,Raw data,512.0,,UFS_LU2,N,Y,efuse.img,N,N,N,,N,,AUTO
+md1img,Raw data,102400.0,,UFS_LU2,N,Y,md1img.img,Y,N,N,,N,,AUTO
+md1dsp,Raw data,16384.0,,UFS_LU2,N,Y,md1dsp.img,Y,N,N,,N,,AUTO
+spmfw,Raw data,1024.0,,UFS_LU2,N,Y,spmfw.img,Y,N,N,,N,,AUTO
+mcupmfw,Raw data,1024.0,,UFS_LU2,N,Y,mcupmfw.img,Y,N,N,,N,,AUTO
+scp1,Raw data,6144.0,,UFS_LU2,N,Y,scp.img,Y,N,Y,,Y,,AUTO
+scp2,Raw data,6144.0,,UFS_LU2,N,Y,scp.img,Y,N,Y,,Y,,AUTO
+sspm_1,Raw data,1024.0,,UFS_LU2,N,Y,sspm.img,Y,N,N,,N,,AUTO
+sspm_2,Raw data,1024.0,,UFS_LU2,N,Y,sspm.img,Y,N,N,,N,,AUTO
+cam_vpu1,Raw data,15360.0,,UFS_LU2,N,Y,cam_vpu1.img,Y,N,N,,N,,AUTO
+cam_vpu2,Raw data,15360.0,,UFS_LU2,N,Y,cam_vpu2.img,Y,N,N,,N,,AUTO
+cam_vpu3,Raw data,15360.0,,UFS_LU2,N,Y,cam_vpu3.img,Y,N,N,,N,,AUTO
+gz1,Raw data,16384.0,,UFS_LU2,N,Y,gz.img,Y,N,N,,N,,AUTO
+gz2,Raw data,16384.0,,UFS_LU2,N,Y,gz.img,Y,N,N,,N,,AUTO
+nvram,Raw data,65536.0,,UFS_LU2,N,N,NONE,N,N,N,,N,,BINREGION
+lk,Raw data,1024.0,,UFS_LU2,N,Y,lk.img,Y,Y,Y,N,Y,N,AUTO
+lk2,Raw data,1024.0,,UFS_LU2,N,Y,lk.img,Y,N,Y,N,Y,N,AUTO
+boot,Raw data,32768.0,,UFS_LU2,N,Y,boot.img,Y,N,Y,,Y,,AUTO
+logo,Raw data,8192.0,,UFS_LU2,N,Y,logo.bin,N,Y,Y,N,Y,N,AUTO
+odmdtbo,Raw data,16384.0,,UFS_LU2,N,Y,odmdtbo.img,Y,N,Y,,Y,,AUTO
+dtbo,Raw data,8192.0,,UFS_LU2,N,Y,dtbo.img,Y,N,Y,,Y,,AUTO
+tee1,Raw data,5120.0,,UFS_LU2,N,Y,tee.img,Y,Y,N,,N,,AUTO
+tee2,Raw data,5120.0,,UFS_LU2,N,Y,tee.img,Y,N,N,,N,,AUTO
+odm,EXT4,32768.0,,UFS_LU2,N,Y,odm.img,Y,N,Y,,Y,,AUTO
+vendor,EXT4,524288.0,,UFS_LU2,N,Y,vendor.img,Y,N,Y,,Y,,AUTO
+system,EXT4,3145728.0,,UFS_LU2,N,Y,system.img,Y,N,Y,,Y,,AUTO
+cache,EXT4,442368.0,,UFS_LU2,N,Y,cache.img,N,N,Y,,Y,,AUTO
+userdata,EXT4,3145728.0,,UFS_LU2,N,Y,userdata.img,N,N,Y,,Y,,AUTO
+intsd,FAT,0.0,,UFS_LU2,N,N,NONE,N,N,N,,N,,AUTO
+otp,Raw data,44032.0,,UFS_LU2,Y,N,NONE,N,N,N,,N,,RESERVED
+flashinfo,Raw data,16384.0,,UFS_LU2,Y,N,NONE,N,N,N,,N,,RESERVED
+sgpt,Raw data,32.0,,UFS_LU2,Y,N,NONE,N,N,N,,N,,RESERVED

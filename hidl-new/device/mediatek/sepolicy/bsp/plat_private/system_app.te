@@ -1,0 +1,36 @@
+# ==============================================
+# MTK Policy Rule
+# =================
+
+# Date : 2016/02/26
+# Operation: BSP C2K test case support
+# Purpose: allow atci to use NSIOT firewall
+# Package: com.mediatek.atci.service
+allow system_app netd_socket:sock_file write;
+
+# Date : WK17.29
+# Operation : Migration
+# Purpose: Allow to get DNS system properties
+set_prop(system_app, net_dns_prop);
+
+# Date: 2016/11/10
+# Purpose: [MDM] Modem monitor config
+# Package Name: com.mediatek.mdmconfig
+set_prop(system_app, config_prop);
+
+# Date : 2018/06/21
+# Operation : P Migration
+# Purpose : Allow AtciService to set ATCI property
+set_prop(system_app, mtk_atci_sys_prop);
+
+# Date : 2018/07/19
+# Operation : P Migration
+# Purpose : Allow to get AAL property
+get_prop(system_app, mtk_aal_prop);
+
+# Date : 2018/08/28
+# Operation : P Migration
+# Purpose : Allow to set/get hdmi service property
+set_prop(system_app, vendor_hdmi_prop);
+# system_app need to read from sysfs /sys/class/switch/hdmi/state
+r_dir_file(system_app, sysfs_switch);

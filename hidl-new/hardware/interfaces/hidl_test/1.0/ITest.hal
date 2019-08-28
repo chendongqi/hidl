@@ -1,0 +1,5 @@
+package android.hardware.hidl_test@1.0;
+
+interface ITest{
+    helloWorld(string name) generates (string result);
+};

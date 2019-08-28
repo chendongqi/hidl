@@ -1,0 +1,60 @@
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+# Socket types
+type statusd_socket, file_type;
+
+# TEEI data file
+type teei_data_file, file_type, data_file_type;
+type teei_control_file, fs_type, sysfs_type;
+# android log too much data/misc/log
+type logmuch_data_file, file_type, data_file_type, core_data_file_type;
+
+# Date : WK16.35
+# Operation : untrusted_app support direct-coredump abort message
+# Purpose :
+# avc: denied { write } for name="aee_interim" dev="dm-0" ino=8236
+# scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:coredump_file:s0
+# tclass=dir permissive=0
+userdebug_or_eng(`
+  typeattribute coredump_file mlstrustedobject;
+')
+
+######################################
+# core domain file data
+
+# Date : WK17.30
+# Purpose : wifi offload daemon access files and sockets
+type epdg_ipsec_conf_file, file_type, data_file_type;
+type epdg_apn_conf_file, file_type, data_file_type;
+type wo_epdg_action_socket, file_type;
+type wo_epdg_sim_socket, file_type;
+type wo_epdg_ipsec_socket, file_type;
+
+# Date : WK17.48
+# Purpose: RCS stack for 2/3G network
+type rcs_volte_stack_socket, file_type;
+
+# Backlight brightness file
+type sysfs_vibrator_setting, fs_type, sysfs_type;
+# Vibrator vibrate file
+type sysfs_leds_setting, fs_type, sysfs_type;
+
+# Date : WK18.16
+# Purpose: Android Migration
+type sysfs_mmcblk, fs_type, sysfs_type;
+
+
+# For DuraSpeed
+type proc_cpu_loading, fs_type, proc_type;
+
+#Date:WK1822
+#Purpose: Store ims config data
+type mtk_radio_data_file, file_type, data_file_type;
+
+# ATCI socket types
+type rild_atci_socket, file_type;
+type rilproxy_atci_socket, file_type;
+type atci_service_socket, file_type;
+type adb_atci_socket, file_type;

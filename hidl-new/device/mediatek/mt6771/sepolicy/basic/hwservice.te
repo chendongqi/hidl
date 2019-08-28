@@ -1,0 +1,2 @@
+# add by chendongqi for hidl test
+type ecarx_hidl_test_hwservice, hwservice_manager_type;

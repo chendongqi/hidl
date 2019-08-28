@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<apns version="8">
+<apn carrier="Cosmote Internet" mcc="202" mnc="01" apn="internet" protocol="IPV4V6" roaming_protocol="IP" type="default,supl,dun,ia,xcap" />
+<apn carrier="HOS" mcc="202" mnc="01" apn="hos" mmsc="http://mmsc.cosmote.gr:8002" mmsport="8080" mmsproxy="10.10.10.20" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IP" type="mms,xcap" user_visible="false" />
+<apn carrier="Cosmote Wireless Internet" mcc="202" mnc="02" apn="internet" protocol="IPV4V6" roaming_protocol="IP" type="default,supl,xcap" />
+<apn carrier="HOS" mcc="202" mnc="02" apn="hos" mmsc="http://mmsc.cosmote.gr:8002" mmsport="8080" mmsproxy="10.10.10.20" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IP" type="mms,xcap" />
+<apn carrier="Vf Internet Corporate" mcc="202" mnc="05" apn="internet" password="pass" type="default,supl,xcap" user="user" />
+<apn carrier="Vf Internet" mcc="202" mnc="05" apn="internet.vodafone.gr" password="pass" type="default,supl,xcap" user="user" />
+<apn carrier="Vodafone GR" mcc="202" mnc="05" apn="surfonly.vodafone.gr" type="default,supl,xcap" />
+<apn carrier="Tele2 GPRS" mcc="204" mnc="02" apn="internet.tele2.nl" mmsc="http://mmsc.tele2.nl" mmsport="8080" mmsproxy="193.12.40.64" type="default,supl,mms,xcap" />
+<apn carrier="Vodafone NL" mcc="204" mnc="04" apn="live.vodafone.com" mmsc="http://mmsc.mms.vodafone.nl" mmsport="8799" mmsproxy="192.168.251.150" password="vodafone" type="default,supl,mms,xcap" user="vodafone" />
+<apn carrier="CTNET" mcc="204" mnc="04" apn="ctnet" authtype="3" mvno_match_data="中国电信" mvno_type="spn" password="vnet.mobi" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,dun,xcap" user="ctnet@mycdma.cn" />
+<apn carrier="8•ta" mcc="204" mnc="04" apn="8ta.internet" mvno_match_data="8.ta Δ" mvno_type="spn" type="default,supl,xcap" />
+<apn carrier="UT-Interface" mcc="204" mnc="08" apn="ut" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="HOS" mcc="204" mnc="16" apn="hos" authtype="1" password="tmobilemms" protocol="IPV4V6" type="xcap" user="tmobilemms" user_visible="false" />
+<apn carrier="HOS" mcc="204" mnc="20" apn="hos" authtype="1" password="tmobilemms" protocol="IPV4V6" type="xcap" user="tmobilemms" user_visible="false" />
+<apn carrier="UT-Interface" mcc="204" mnc="69" apn="ut" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="XCAP" mcc="206" mnc="01" apn="hos" type="xcap" />
+<apn carrier="SFR" mcc="208" mnc="10" apn="sl2sfr" type="default,supl,xcap,mms" />
+<apn carrier="Bouygues Telecom" mcc="208" mnc="20" apn="mmsbouygtel.com" mmsc="http://mms.bouyguestelecom.fr/mms/wapenc" mmsport="8080" mmsproxy="62.201.129.226" type="default,supl,mms,xcap" />
+<apn carrier="MMS Bouygues" mcc="208" mnc="88" apn="mmsbouygtel.com" mmsc="http://mms.bouyguestelecom.fr/mms/wapenc" mmsport="8080" mmsproxy="62.201.129.226" type="mms,xcap" />
+<apn carrier="Ut" mcc="214" mnc="01" apn="ut.es" port="8090" protocol="IP" server="xcap.ims.mnc001.mcc214.pub.3gppnetwork.org" type="xcap" />
+<apn carrier="Movistar" mcc="214" mnc="02" apn="telefonica.es" authtype="1" mmsc="http://mms.movistar.com" mmsport="8080" mmsproxy="10.138.255.5" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="telefonica" protocol="IPV4V6" type="default,supl,mms,xcap" user="telefonica" />
+<apn carrier="INTERNET GPRS" mcc="214" mnc="06" apn="airtelnet.es" password="vodafone" type="default,supl,xcap" user="vodafone" />
+<apn carrier="Movistar" mcc="214" mnc="07" apn="telefonica.es" authtype="1" mmsc="http://mms.movistar.com" mmsport="8080" mmsproxy="10.138.255.5" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="telefonica" protocol="IPV4V6" type="default,supl,mms,xcap" user="telefonica" />
+<apn carrier="XCAP" mcc="216" mnc="01" apn="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" type="xcap" />
+<apn carrier="xcap" mcc="216" mnc="03" apn="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="Telekom HU NET" mcc="216" mnc="30" apn="internet.telekom" authtype="1" protocol="IPV4V6" roaming_protocol="IP" type="default,dun,supl,ia,xcap" />
+<apn carrier="Tesco Internet" mcc="216" mnc="70" apn="internet.tescomobile.hu" type="default,supl,xcap" />
+<apn carrier="HOS" mcc="219" mnc="01" apn="hos" authtype="1" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" type="xcap" user_visible="false" />
+<apn carrier="TIM XCAP" mcc="222" mnc="01" apn="xcap.tim.it" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Vodafone IT" mcc="222" mnc="06" apn="mobile.vodafone.it" type="default,supl,xcap" />
+<apn carrier="Vodafone WEB" mcc="222" mnc="06" apn="web.omnitel.it" type="default,supl,xcap" />
+<apn carrier="Vodafone IT" mcc="222" mnc="10" apn="mobile.vodafone.it" type="default,supl,xcap" />
+<apn carrier="Vodafone WEB" mcc="222" mnc="10" apn="web.omnitel.it" type="default,supl,xcap" />
+<apn carrier="Vodafone Internet" mcc="226" mnc="01" apn="internet.vodafone.ro" password="vodafone" type="default,supl,xcap" user="internet.vodafone.ro" />
+<apn carrier="Swisscom XCAP" mcc="228" mnc="01" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" type="xcap" />
+<apn carrier="XCAP" mcc="228" mnc="02" apn="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="TMO Czech XCAP" mcc="230" mnc="01" apn="hos" authtype="1" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IP" type="xcap" />
+<apn carrier="O2 VoLTE" mcc="230" mnc="02" apn="xcap" protocol="IPV6" type="xcap" />
+<apn carrier="GPRS Web" mcc="230" mnc="03" apn="internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="HOS" mcc="231" mnc="02" apn="hos" authtype="1" mmsc="http://mmsc.telekom.sk" password="mms" protocol="IP" roaming_protocol="IP" type="mms,xcap" user="mms" user_visible="false" />
+<apn carrier="HOS" mcc="231" mnc="04" apn="hos" protocol="IPV4V6" roaming_protocol="IP" type="xcap" />
+<apn carrier="O2 Pay Monthly" mcc="234" mnc="02" apn="mobile.o2.co.uk" authtype="1" mmsc="http://mmsc.mms.o2.co.uk:8002" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="p" protocol="IPV4V6" type="default,ia,supl,mms,xcap" user="o2" />
+<apn carrier="O2 Pay Monthly" mcc="234" mnc="10" apn="mobile.o2.co.uk" authtype="1" mmsc="http://mmsc.mms.o2.co.uk:8002" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="p" protocol="IPV4V6" type="default,ia,supl,mms,xcap" user="o2" />
+<apn carrier="O2 Pay Monthly" mcc="234" mnc="11" apn="mobile.o2.co.uk" authtype="1" mmsc="http://mmsc.mms.o2.co.uk:8002" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="p" protocol="IPV4V6" type="default,ia,supl,mms,xcap" user="o2" />
+<apn carrier="Vodafone UK XCAP" mcc="234" mnc="15" apn="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="3 UK Xcap" mcc="234" mnc="20" apn="three.co.uk" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="MMS" mcc="234" mnc="30" apn="eezone" authtype="1" mmsc="http://mms/" mmsport="8080" mmsproxy="149.254.201.135" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="secure" protocol="IP" type="mms,xcap" user="eesecure" />
+<apn carrier="SOS(wifi)" mcc="234" mnc="30" apn="SOS" authtype="1" network_type_bitmask="18" protocol="IPV6" type="emergency" />
+<apn carrier="MMS" mcc="234" mnc="31" apn="eezone" authtype="1" mmsc="http://mms/" mmsport="8080" mmsproxy="149.254.201.135" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="secure" protocol="IP" roaming_protocol="IP" type="mms,xcap" user="eesecure" />
+<apn carrier="SOS(wifi)" mcc="234" mnc="31" apn="SOS" authtype="1" network_type_bitmask="18" protocol="IPV6" type="emergency" />
+<apn carrier="MMS" mcc="234" mnc="32" apn="eezone" authtype="1" mmsc="http://mms/" mmsport="8080" mmsproxy="149.254.201.135" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="secure" protocol="IP" roaming_protocol="IP" type="mms,xcap" user="eesecure" />
+<apn carrier="SOS(wifi)" mcc="234" mnc="32" apn="SOS" authtype="1" network_type_bitmask="18" protocol="IPV6" type="emergency" />
+<apn carrier="MMS" mcc="234" mnc="33" apn="eezone" authtype="1" mmsc="http://mms/" mmsport="8080" mmsproxy="149.254.201.135" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="secure" protocol="IP" roaming_protocol="IP" type="mms,xcap" user="eesecure" />
+<apn carrier="SOS(wifi)" mcc="234" mnc="33" apn="SOS" authtype="1" network_type_bitmask="18" protocol="IPV6" type="emergency" />
+<apn carrier="MMS" mcc="234" mnc="34" apn="eezone" authtype="1" mmsc="http://mms/" mmsport="8080" mmsproxy="149.254.201.135" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="secure" protocol="IP" roaming_protocol="IP" type="mms,xcap" user="eesecure" />
+<apn carrier="SOS(wifi)" mcc="234" mnc="34" apn="SOS" authtype="1" network_type_bitmask="18" protocol="IPV6" type="emergency" />
+<apn carrier="HOS" mcc="234" mnc="53" apn="HOS" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="HOS" mcc="234" mnc="54" apn="HOS" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="EE Xcap" mcc="234" mnc="86" apn="eezone" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="EE Xcap" mcc="235" mnc="01" apn="eezone" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="EE Xcap" mcc="235" mnc="02" apn="eezone" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="Vodafone UK XCAP" mcc="235" mnc="91" apn="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="3 UK" mcc="235" mnc="94" apn="three.co.uk" mmsc="http://mms.um.three.co.uk:10021/mmsc" mmsport="8799" mmsproxy="mms.three.co.uk" type="default,supl,mms,xcap" />
+<apn carrier="XCAP" mcc="238" mnc="02" apn="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="services" mcc="238" mnc="06" apn="services" protocol="IPV4V6" roaming_protocol="IP" type="xcap" />
+<apn carrier="services(wifi)" mcc="238" mnc="06" apn="services" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IP" type="xcap,mms" />
+<apn carrier="XCAP" mcc="238" mnc="77" apn="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="hos" mcc="240" mnc="01" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="services" mcc="240" mnc="02" apn="services" protocol="IPV4V6" roaming_protocol="IP" type="xcap" />
+<apn carrier="services(wifi)" mcc="240" mnc="02" apn="services" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IP" type="xcap,mms" />
+<apn carrier="hos" mcc="240" mnc="05" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="hos" mcc="242" mnc="01" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="HOS" mcc="242" mnc="02" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="HOS" mcc="242" mnc="05" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Elisa XCAP" mcc="244" mnc="05" apn="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="hos" mcc="244" mnc="12" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV6" roaming_protocol="IPV6" type="xcap" />
+<apn carrier="hos" mcc="244" mnc="13" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV6" roaming_protocol="IPV6" type="xcap" />
+<apn carrier="TeliaSonera HOS" mcc="244" mnc="91" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="hos" mcc="248" mnc="01" apn="hos" protocol="IPV6" roaming_protocol="IPV6" type="xcap" />
+<apn carrier="Megafon XCAP2" mcc="250" mnc="011" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Megafon XCAP1" mcc="250" mnc="02" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="XCAP" mcc="250" mnc="20" apn="hos" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="Beeline XCAP" mcc="250" mnc="99" apn="xcap.beeline.ru" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" roaming_protocol="IP" type="xcap" user_visible="false" />
+<apn carrier="HOS" mcc="260" mnc="02" apn="hos" authtype="1" mmsc="http://mms/servlets/mms" mmsport="8080" mmsproxy="213.158.194.226" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IP" type="mms,xcap" user_visible="false" />
+<apn carrier="xcap" mcc="260" mnc="06" apn="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="HOS" mcc="260" mnc="34" apn="hos" mmsc="http://mms/servlets/mms" mmsport="8080" mmsproxy="213.158.194.226" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IP" type="mms,xcap" />
+<apn carrier="HOS" mcc="262" mnc="01" apn="hos" authtype="1" mmsc="http://mms.t-mobile.de/servlets/mms" mmsport="8008" mmsproxy="109.237.176.193" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="telekom" protocol="IPV4V6" type="mms,xcap" user="telekom" user_visible="false" />
+<apn carrier="HOS" mcc="262" mnc="01" apn="hos" authtype="1" mmsc="http://mms.t-mobile.de/servlets/mms" mmsport="8008" mmsproxy="109.237.176.193" mvno_match_data="44" mvno_type="gid" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="telekom" protocol="IPV4V6" type="mms,xcap" user="telekom" user_visible="false" />
+<apn carrier="Vodafone DE" mcc="262" mnc="02" apn="web.vodafone.de" type="default,supl,xcap" />
+<apn carrier="o2 Internet" mcc="262" mnc="03" apn="internet" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Vodafone DE" mcc="262" mnc="04" apn="web.vodafone.de" type="default,supl,xcap" />
+<apn carrier="Telekom Deutschland XCAP" mcc="262" mnc="06" apn="internet.telekom" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" type="xcap" />
+<apn carrier="TMO DTAG XCAP" mcc="262" mnc="06" apn="hos" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="o2 Internet" mcc="262" mnc="07" apn="internet" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Vodafone DE" mcc="262" mnc="09" apn="web.vodafone.de" type="default,supl,xcap" />
+<apn carrier="o2 Internet" mcc="262" mnc="77" apn="internet" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Telekom Deutschland XCAP" mcc="262" mnc="78" apn="internet.telekom" protocol="IPV4V6" type="xcap" />
+<apn carrier="XCAP" mcc="262" mnc="80" apn="apn01.epg78.ericsson.se" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" type="xcap" />
+<apn carrier="Vodafone PT" mcc="268" mnc="01" apn="net2.vodafone.pt" password="vodafone" type="default,supl,xcap" user="vodafone" />
+<apn carrier="Vodafone IE" mcc="272" mnc="01" apn="live.vodafone.com" type="default,supl,xcap" />
+<apn carrier="Vodafone Internet" mcc="274" mnc="02" apn="gprs.is" type="default,supl,xcap" />
+<apn carrier="Vodafone Internet" mcc="278" mnc="01" apn="internet" password="internet" type="default,supl,xcap" user="internet" />
+<apn carrier="hos" mcc="284" mnc="03" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" type="xcap" />
+<apn carrier="Turkcell Xcap" mcc="286" mnc="01" apn="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Vodafone Internet" mcc="286" mnc="02" apn="internet" password="vodafone" type="default,supl,xcap" user="vodafone" />
+<apn carrier="Vodafone Turkey Xcap" mcc="286" mnc="02" apn="hos" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="Avea Xcap" mcc="286" mnc="03" apn="web" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Swisscom XCAP" mcc="295" mnc="01" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" type="xcap" />
+<apn carrier="SOS" mcc="302" mnc="220" apn="sos" protocol="IPV6" roaming_protocol="IPV4V6" type="emergency" user_visible="false" />
+<apn carrier="TELUS Services" mcc="302" mnc="220" apn="services.telus.com" protocol="IPV6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="SOS" mcc="302" mnc="220" apn="sos" mvno_match_data="4B" mvno_type="gid" protocol="IPV6" roaming_protocol="IPV4V6" type="emergency" user_visible="false" />
+<apn carrier="Koodo Services" mcc="302" mnc="220" apn="services.koodo.com" mvno_match_data="4B" mvno_type="gid" protocol="IPV6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="SOS" mcc="302" mnc="220" apn="sos" mvno_match_data="4F" mvno_type="gid" protocol="IPV6" roaming_protocol="IPV4V6" type="emergency" user_visible="false" />
+<apn carrier="Koodo Services" mcc="302" mnc="220" apn="services.koodo.com" mvno_match_data="4F" mvno_type="gid" protocol="IPV6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="SOS" mcc="302" mnc="221" apn="sos" protocol="IPV6" roaming_protocol="IPV4V6" type="emergency" user_visible="false" />
+<apn carrier="TELUS Services" mcc="302" mnc="221" apn="services.telus.com" protocol="IPV6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="E911" mcc="302" mnc="490" apn="e911.mobilefrdm.ca" protocol="IPV4V6" roaming_protocol="IP" type="emergency" user_visible="false" />
+<apn carrier="XCAP" mcc="302" mnc="490" apn="xcap.freedommobile.ca" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IP" type="xcap" user_visible="false" />
+<apn carrier="Bell-Internet" mcc="302" mnc="610" apn="pda.bell.ca" mmsc="http://mms.bell.ca/mms/wapenc" port="80" protocol="IPV4V6" proxy="web.wireless.bell.ca" roaming_protocol="IPV4V6" type="default,supl,xcap,mms" />
+<apn carrier="SOS" mcc="302" mnc="610" apn="sos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="Bell-Internet" mcc="302" mnc="630" apn="pda.bell.ca" mmsc="http://mms.bell.ca/mms/wapenc" port="80" protocol="IPV4V6" proxy="web.wireless.bell.ca" roaming_protocol="IPV4V6" type="default,supl,xcap,mms" />
+<apn carrier="SOS" mcc="302" mnc="630" apn="sos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="Bell-Internet" mcc="302" mnc="640" apn="pda.bell.ca" mmsc="http://mms.bell.ca/mms/wapenc" port="80" protocol="IPV4V6" proxy="web.wireless.bell.ca" roaming_protocol="IPV4V6" type="default,supl,xcap,mms" />
+<apn carrier="SOS" mcc="302" mnc="640" apn="sos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="ATT Nextgenphone" mcc="310" mnc="030" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" protocol="IPV4V6" type="default,supl,mms,hipri,fota,xcap" />
+<apn carrier="ATT Nextgenphone" mcc="310" mnc="070" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" protocol="IPV4V6" type="default,supl,mms,hipri,fota,xcap" />
+<apn carrier="ATT Nextgenphone(wifi)" mcc="310" mnc="070" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" network_type_bitmask="18" protocol="IPV4V6" type="mms,xcap" />
+<apn carrier="ATT SOS" mcc="310" mnc="070" apn="" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="ATT SOS(wifi)" mcc="310" mnc="070" apn="sos" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="ATT Nextgenphone" mcc="310" mnc="090" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" protocol="IPV4V6" type="default,supl,mms,hipri,fota,xcap" />
+<apn carrier="ATT SOS" mcc="310" mnc="090" apn="" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="ATT SOS(wifi)" mcc="310" mnc="090" apn="sos" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="internet" mcc="310" mnc="150" apn="ndo" mmsc="http://mmsc.aiowireless.net" mmsport="80" mmsproxy="proxy.aiowireless.net" protocol="IP" roaming_protocol="IP" type="default,mms,fota,hipri,supl,xcap" />
+<apn carrier="T-Mobile US 160 Emergency" mcc="310" mnc="160" apn="" protocol="IPV6" roaming_protocol="IPV6" type="emergency" />
+<apn carrier="ATT Nextgenphone" mcc="310" mnc="170" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" protocol="IPV4V6" type="default,supl,mms,hipri,fota,xcap" />
+<apn carrier="ATT Nextgenphone(wifi)" mcc="310" mnc="170" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" network_type_bitmask="18" protocol="IPV4V6" type="mms,xcap" />
+<apn carrier="ATT SOS" mcc="310" mnc="170" apn="" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="ATT SOS(wifi)" mcc="310" mnc="170" apn="sos" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="T-Mobile US 200 Emergency" mcc="310" mnc="200" apn="" protocol="IPV6" roaming_protocol="IPV6" type="emergency" />
+<apn carrier="T-Mobile US 210 Emergency" mcc="310" mnc="210" apn="" protocol="IPV6" roaming_protocol="IPV6" type="emergency" />
+<apn carrier="T-Mobile US 220 Emergency" mcc="310" mnc="220" apn="" protocol="IPV6" roaming_protocol="IPV6" type="emergency" />
+<apn carrier="T-Mobile US 230 Emergency" mcc="310" mnc="230" apn="" protocol="IPV6" roaming_protocol="IPV6" type="emergency" />
+<apn carrier="T-Mobile US 240 Emergency" mcc="310" mnc="240" apn="" protocol="IPV6" roaming_protocol="IPV6" type="emergency" />
+<apn carrier="T-Mobile US 250 Emergency" mcc="310" mnc="250" apn="" protocol="IPV6" roaming_protocol="IPV6" type="emergency" />
+<apn carrier="T-Mobile US 260 Emergency" mcc="310" mnc="260" apn="" protocol="IPV6" roaming_protocol="IPV6" type="emergency" />
+<apn carrier="ATT Nextgenphone" mcc="310" mnc="280" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" protocol="IPV4V6" type="default,supl,mms,hipri,fota,xcap" />
+<apn carrier="T-Mobile US 310 Emergency" mcc="310" mnc="310" apn="" protocol="IPV6" roaming_protocol="IPV6" type="emergency" />
+<apn carrier="ATT Nextgenphone" mcc="310" mnc="380" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" protocol="IPV4V6" type="default,supl,mms,hipri,fota,xcap" />
+<apn carrier="ATT Nextgenphone(wifi)" mcc="310" mnc="380" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" network_type_bitmask="18" protocol="IPV4V6" type="mms,xcap" />
+<apn carrier="ATT SOS" mcc="310" mnc="380" apn="" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="ATT SOS(wifi)" mcc="310" mnc="380" apn="sos" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="ATT Nextgenphone" mcc="310" mnc="410" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,mms,supl,fota,hipri,xcap" />
+<apn carrier="ATT Nextgenphone(wifi)" mcc="310" mnc="410" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6" type="mms,xcap" />
+<apn carrier="ATT SOS" mcc="310" mnc="410" apn="" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="ATT SOS(wifi)" mcc="310" mnc="410" apn="sos" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="ATT Nextgenphone" mcc="310" mnc="560" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" protocol="IPV4V6" type="default,supl,mms,hipri,fota,xcap" />
+<apn carrier="ATT Nextgenphone(wifi)" mcc="310" mnc="560" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" network_type_bitmask="18" protocol="IPV4V6" type="mms,xcap" />
+<apn carrier="ATT SOS" mcc="310" mnc="560" apn="" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="ATT SOS(wifi)" mcc="310" mnc="560" apn="sos" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="ATT Nextgenphone" mcc="310" mnc="680" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" protocol="IPV4V6" type="default,supl,mms,hipri,fota,xcap" />
+<apn carrier="ATT Nextgenphone(wifi)" mcc="310" mnc="680" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" network_type_bitmask="18" protocol="IPV4V6" type="mms,xcap" />
+<apn carrier="ATT SOS" mcc="310" mnc="680" apn="" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="ATT SOS(wifi)" mcc="310" mnc="680" apn="sos" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="ATT Nextgenphone" mcc="310" mnc="950" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" protocol="IPV4V6" type="default,supl,mms,hipri,fota,xcap" />
+<apn carrier="ATT Nextgenphone" mcc="311" mnc="180" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" protocol="IPV4V6" type="default,supl,mms,hipri,fota,xcap" />
+<apn carrier="ATT SOS" mcc="311" mnc="180" apn="" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="ATT SOS(wifi)" mcc="311" mnc="180" apn="sos" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="LTE - Verizon EMERGENCY" mcc="311" mnc="270" apn="" max_conns="1023" max_conns_time="300" protocol="IPV4V6" roaming_protocol="IPV6" type="emergency" wait_time="0" />
+<apn carrier="ePDG - Verizon EMERGENCY" mcc="311" mnc="270" apn="VZWEMERGENCY" max_conns="1023" max_conns_time="300" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV6" type="emergency" wait_time="0" />
+<apn carrier="LTE - Verizon EMERGENCY" mcc="311" mnc="390" apn="" max_conns="1023" max_conns_time="300" protocol="IPV4V6" roaming_protocol="IPV6" type="emergency" wait_time="0" />
+<apn carrier="ePDG - Verizon EMERGENCY" mcc="311" mnc="390" apn="VZWEMERGENCY" max_conns="1023" max_conns_time="300" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV6" type="emergency" wait_time="0" />
+<apn carrier="LTE - Verizon EMERGENCY" mcc="311" mnc="480" apn="" max_conns="1023" max_conns_time="300" protocol="IPV4V6" roaming_protocol="IPV6" type="emergency" wait_time="0" />
+<apn carrier="ePDG - Verizon EMERGENCY" mcc="311" mnc="480" apn="VZWEMERGENCY" max_conns="1023" max_conns_time="300" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV6" type="emergency" wait_time="0" />
+<apn carrier="ATT FirstNet-Phone" mcc="312" mnc="670" apn="firstnet-phone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,mms,fota,supl,xcap" />
+<apn carrier="LTE - Verizon EMERGENCY" mcc="312" mnc="770" apn="" max_conns="1023" max_conns_time="300" protocol="IPV4V6" roaming_protocol="IPV6" type="emergency" wait_time="0" />
+<apn carrier="ePDG - Verizon EMERGENCY" mcc="312" mnc="770" apn="VZWEMERGENCY" max_conns="1023" max_conns_time="300" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV6" type="emergency" wait_time="0" />
+<apn carrier="ATT FirstNet-Phone" mcc="313" mnc="100" apn="firstnet-phone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,mms,fota,supl,xcap" />
+<apn carrier="ATT FirstNet-Phone" mcc="313" mnc="110" apn="firstnet-phone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,mms,fota,supl,xcap" />
+<apn carrier="ATT FirstNet-Phone" mcc="313" mnc="120" apn="firstnet-phone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,mms,fota,supl,xcap" />
+<apn carrier="ATT FirstNet-Phone" mcc="313" mnc="130" apn="firstnet-phone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,mms,fota,supl,xcap" />
+<apn carrier="ATT FirstNet-Phone" mcc="313" mnc="140" apn="firstnet-phone" mmsc="http://mmsc.mobile.att.net" mmsport="80" mmsproxy="proxy.mobile.att.net" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,mms,fota,supl,xcap" />
+<apn carrier="Telcel XCAP" mcc="334" mnc="020" apn="internet.itelcel.com" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Movistar INTERNET" mcc="334" mnc="03" apn="internet.movistar.mx" authtype="1" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="movistar" protocol="IPV4V6" type="default,supl,xcap" user="movistar" />
+<apn carrier="MoviStar Internet" mcc="334" mnc="030" apn="internet.movistar.mx" password="movistar" type="default,supl,xcap" user="movistar" />
+<apn carrier="wap.attmex.mx" mcc="334" mnc="050" apn="wap.attmex.mx" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="wap.attmex.mx" mcc="334" mnc="050" apn="wap.attmex.mx" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="wap.attmex.mx" mcc="334" mnc="090" apn="wap.attmex.mx" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="wap.attmex.mx" mcc="334" mnc="090" apn="wap.attmex.mx" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="hos" mcc="404" mnc="01" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Internet" mcc="404" mnc="04" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="hos" mcc="404" mnc="05" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Internet" mcc="404" mnc="07" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="hos" mcc="404" mnc="11" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Internet" mcc="404" mnc="12" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="hos" mcc="404" mnc="13" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Internet" mcc="404" mnc="14" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="hos" mcc="404" mnc="15" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Internet" mcc="404" mnc="19" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="hos" mcc="404" mnc="20" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Internet" mcc="404" mnc="22" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Internet" mcc="404" mnc="24" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="hos" mcc="404" mnc="27" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="hos" mcc="404" mnc="30" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="hos" mcc="404" mnc="43" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Internet" mcc="404" mnc="44" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="hos" mcc="404" mnc="46" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Internet" mcc="404" mnc="56" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="hos" mcc="404" mnc="60" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Internet" mcc="404" mnc="78" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Internet" mcc="404" mnc="82" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="hos" mcc="404" mnc="84" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="hos" mcc="404" mnc="86" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Internet" mcc="404" mnc="87" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="hos" mcc="404" mnc="88" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Internet" mcc="404" mnc="89" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="hos" mcc="405" mnc="66" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="hos" mcc="405" mnc="67" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Internet" mcc="405" mnc="70" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="hos" mcc="405" mnc="750" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="hos" mcc="405" mnc="751" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="hos" mcc="405" mnc="752" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="hos" mcc="405" mnc="753" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="hos" mcc="405" mnc="754" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="hos" mcc="405" mnc="755" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="hos" mcc="405" mnc="756" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Internet" mcc="405" mnc="799" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="840" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Internet" mcc="405" mnc="845" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Internet" mcc="405" mnc="846" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Internet" mcc="405" mnc="847" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Internet" mcc="405" mnc="848" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Internet" mcc="405" mnc="849" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Internet" mcc="405" mnc="850" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Internet" mcc="405" mnc="851" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Internet" mcc="405" mnc="852" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Internet" mcc="405" mnc="853" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="854" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="855" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="856" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="857" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="858" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="859" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="860" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="861" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="862" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="863" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="864" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="865" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="866" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="867" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="868" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="869" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="870" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="871" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="872" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="873" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Jionet" mcc="405" mnc="874" apn="Jionet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="Internet" mcc="405" mnc="908" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Internet" mcc="405" mnc="909" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Internet" mcc="405" mnc="910" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Internet" mcc="405" mnc="911" apn="Internet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Telenor" mcc="414" mnc="06" apn="internet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,supl,mms,xcap" />
+<apn carrier="Fastlink Internet" mcc="418" mnc="66" apn="fastlink" type="default,supl,xcap" />
+<apn carrier="STC" mcc="420" mnc="01" apn="jawalnet.com.sa" type="default,supl,xcap" />
+<apn carrier="zain-xcap" mcc="420" mnc="04" apn="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Etisalat XCAP" mcc="424" mnc="02" apn="ut" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="Y!mobile APN" mcc="440" mnc="20" apn="plus.acs.jp" mmsc="http://mms-s/" mmsport="8080" mmsproxy="andmms.plusacs.ne.jp" password="ym" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,supl,mms,xcap" user="ym" />
+<apn carrier="SoftBank 4G" mcc="440" mnc="20" apn="plus.4g" mmsc="http://mms-s/" mmsport="8080" mmsproxy="andmms.plusacs.ne.jp" password="4g" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,supl,mms,xcap" user="plus" />
+<apn carrier="Viettel XCAP" mcc="452" mnc="04" apn="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" type="xcap" />
+<apn carrier="CTEXCEL" mcc="454" mnc="00" apn="ctexcel" mvno_match_data="CTExcel" mvno_type="spn" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,dun,xcap" />
+<apn carrier="CTNET" mcc="454" mnc="03" apn="ctnet" authtype="3" mvno_match_data="中国电信" mvno_type="spn" password="vnet.mobi" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,dun,xcap" user="ctnet@mycdma.cn" />
+<apn carrier="CTNET" mcc="454" mnc="04" apn="ctnet" authtype="3" mvno_match_data="中国电信" mvno_type="spn" password="vnet.mobi" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,dun,xcap" user="ctnet@mycdma.cn" />
+<apn carrier="xcap" mcc="454" mnc="12" apn="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="CTEXCEL" mcc="454" mnc="31" apn="ctexcel" mvno_match_data="CTExcel" mvno_type="spn" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,dun,xcap" />
+<apn carrier="CTNET" mcc="454" mnc="31" apn="ctnet" mvno_match_data="中国电信" mvno_type="spn" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,dun,xcap" />
+<apn carrier="CTNET" mcc="455" mnc="02" apn="ctnet" authtype="3" password="vnet.mobi" ppp="#777" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,dun,xcap" user="ctnet@mycdma.cn" />
+<apn carrier="CTNET" mcc="455" mnc="07" apn="ctnet" authtype="3" password="vnet.mobi" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,dun,xcap" user="ctnet@mycdma.cn" />
+<apn carrier="Smart" mcc="456" mnc="06" apn="smart" protocol="IP" roaming_protocol="IP" type="default,supl,xcap" />
+<apn carrier="Smart" mcc="456" mnc="06" apn="smart" network_type_bitmask="18" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="Seatel" mcc="456" mnc="11" apn="seatel" protocol="IP" roaming_protocol="IP" type="default,supl,xcap" />
+<apn carrier="CMNET" mcc="460" mnc="00" apn="cmnet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,supl,xcap,rcs" />
+<apn carrier="沃宽带用户连接互联网" mcc="460" mnc="01" apn="3gnet" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="China Telecom" mcc="460" mnc="01" apn="3gnet" mvno_match_data="China Telecom" mvno_type="spn" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,dun,xcap" />
+<apn carrier="CMNET" mcc="460" mnc="02" apn="cmnet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,supl,xcap,rcs" />
+<apn carrier="CTNET" mcc="460" mnc="03" apn="ctnet" authtype="3" password="vnet.mobi" ppp="#777" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,dun,xcap" user="ctnet@mycdma.cn" />
+<apn carrier="CMNET" mcc="460" mnc="07" apn="cmnet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,supl,xcap,rcs" />
+<apn carrier="沃宽带用户连接互联网" mcc="460" mnc="09" apn="3gnet" protocol="IPV4V6" type="default,xcap" />
+<apn carrier="CTNET" mcc="460" mnc="11" apn="ctnet" authtype="3" password="vnet.mobi" ppp="#777" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,dun,xcap" user="ctnet@mycdma.cn" />
+<apn carrier="CTNET" mcc="460" mnc="12" apn="ctnet" password="vnet.mobi" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,dun,xcap" user="ctnet@mycdma.cn" />
+<apn carrier="遠傳電信(Far EasTone)(SOS)" mcc="466" mnc="01" apn="sos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" type="emergency" />
+<apn carrier="xCAP" mcc="466" mnc="05" apn="gtnet" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" type="xcap" user_visible="false" />
+<apn carrier="SOS" mcc="466" mnc="05" apn="sos" type="emergency" user_visible="false" />
+<apn carrier="CHT XCAP" mcc="466" mnc="92" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IP" type="xcap" />
+<apn carrier="CHT SOS(Wifi)" mcc="466" mnc="92" apn="sos" network_type_bitmask="18" protocol="IP" roaming_protocol="IP" type="emergency" />
+<apn carrier="Yes Internet" mcc="502" mnc="152" apn="yesnet" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Unifi Internet" mcc="502" mnc="153" apn="unifi" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="hos" mcc="502" mnc="16" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV6" roaming_protocol="IPV6" type="xcap" />
+<apn carrier="XCAP" mcc="502" mnc="18" apn="XCAP" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV6" roaming_protocol="IPV6" type="xcap" />
+<apn carrier="hos" mcc="505" mnc="01" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="Optus Call Settings" mcc="505" mnc="02" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="Optus SOS" mcc="505" mnc="02" apn="SOS" protocol="IPV4V6" type="emergency" />
+<apn carrier="VHA XCAP" mcc="505" mnc="03" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap,mms" />
+<apn carrier="VHA XCAP" mcc="505" mnc="06" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap,mms" />
+<apn carrier="hos" mcc="505" mnc="11" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="hos" mcc="505" mnc="39" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="hos" mcc="505" mnc="71" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="hos" mcc="505" mnc="72" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="Optus Call Settings" mcc="505" mnc="90" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="Optus SOS" mcc="505" mnc="90" apn="SOS" protocol="IPV4V6" type="emergency" />
+<apn carrier="IMS" mcc="510" mnc="09" apn="ims" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6" type="ims,xcap" />
+<apn carrier="Smartfren4G" mcc="510" mnc="09" apn="Smartfren4G" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="IMS" mcc="510" mnc="28" apn="ims" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6" type="ims,xcap" />
+<apn carrier="Smartfren4G" mcc="510" mnc="28" apn="Smartfren4G" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+<apn carrier="XCAP" mcc="515" mnc="03" apn="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="DTAC XCAP" mcc="520" mnc="05" apn="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="DTAC XCAP" mcc="520" mnc="18" apn="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="SingTel XCAP" mcc="525" mnc="01" apn="stm-ut" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="MobileOne XCAP" mcc="525" mnc="03" apn="xcap" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="xcap" mcc="530" mnc="01" apn="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="hos" mcc="530" mnc="24" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" type="xcap" />
+<apn carrier="Etisalat XCAP" mcc="602" mnc="03" apn="ut" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="hos" mcc="602" mnc="04" apn="hos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="xcap" mcc="639" mnc="02" apn="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="hos" mcc="639" mnc="10" apn="hos" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="XCAP" mcc="645" mnc="05" apn="xcap" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="hos" mcc="655" mnc="10" apn="hos" protocol="IP" roaming_protocol="IP" type="xcap" />
+<apn carrier="Movistar INTERNET" mcc="704" mnc="03" apn="internet.movistar.gt" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="movistargt" protocol="IPV4V6" type="default,supl,xcap" user="movistargt" />
+<apn carrier="Movistar INTERNET" mcc="706" mnc="04" apn="internet.movistar.sv" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="movistarsv" protocol="IPV4V6" type="default,supl,xcap" user="movistarsv" />
+<apn carrier="Movistar INTERNET" mcc="710" mnc="30" apn="internet.movistar.ni" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="movistarni" protocol="IPV4V6" type="default,supl,xcap" user="movistarni" />
+<apn carrier="Movistar INTERNET" mcc="710" mnc="300" apn="internet.movistar.ni" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="movistarni" protocol="IPV4V6" type="default,supl,xcap" user="movistarni" />
+<apn carrier="Movistar Internet" mcc="712" mnc="04" apn="internet.movistar.cr" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="movistarcr" protocol="IPV4V6" type="default,supl,xcap" user="movistarcr" />
+<apn carrier="Movistar INTERNET" mcc="714" mnc="20" apn="internet.movistar.pa" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="movistarpa" protocol="IPV4V6" type="default,supl,xcap" user="movistarpa" />
+<apn carrier="Movistar INTERNET" mcc="716" mnc="06" apn="movistar.pe" authtype="1" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="movistar" protocol="IPV4V6" type="default,supl,xcap" user="movistar@datos" />
+<apn carrier="CLARO XCAP" mcc="716" mnc="10" apn="claro.pe" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Movistar INTERNET" mcc="722" mnc="07" apn="wap.gprs.unifon.com.ar" authtype="1" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="wap" protocol="IPV4V6" type="default,supl,xcap" user="wap" />
+<apn carrier="CLARO XCAP" mcc="722" mnc="310" apn="igprs.claro.com.ar" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="Personal XCAP" mcc="722" mnc="34" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" type="xcap" />
+<apn carrier="TIM IMS" mcc="724" mnc="02" apn="ims" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="ims,xcap" />
+<apn carrier="TIM IMS" mcc="724" mnc="03" apn="ims" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="ims,xcap" />
+<apn carrier="TIM IMS" mcc="724" mnc="04" apn="ims" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="ims,xcap" />
+<apn carrier="XCAP" mcc="724" mnc="06" apn="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="XCAP" mcc="724" mnc="10" apn="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="XCAP" mcc="724" mnc="11" apn="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="XCAP" mcc="724" mnc="23" apn="xcap" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
+<apn carrier="XCAP" mcc="724" mnc="80" apn="apn01.epg78.ericsson.se" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" type="xcap" />
+<apn carrier="Movistar INTERNET" mcc="730" mnc="02" apn="wap.tmovil.cl" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="wap" protocol="IPV4V6" type="default,supl,dun,xcap" user="wap" />
+<apn carrier="WEB CLARO" mcc="730" mnc="03" apn="bam.clarochile.cl" password="clarochile" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,supl,xcap" user="clarochile" />
+<apn carrier="Movistar INTERNET" mcc="730" mnc="07" apn="wap.tmovil.cl" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="wap" protocol="IPV4V6" type="default,supl,dun,xcap" user="wap" />
+<apn carrier="WEB CLARO" mcc="730" mnc="23" apn="bam.clarochile.cl" password="clarochile" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,supl,xcap" user="clarochile" />
+<apn carrier="WEB Comcel 3GSM" mcc="732" mnc="101" apn="internet.comcel.com.co" password="COMCELWEB" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,supl,xcap" user="COMCELWEB" />
+<apn carrier="Claro Emergency" mcc="732" mnc="101" apn="sos" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="HOS" mcc="732" mnc="123" apn="hos" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" type="xcap" />
+<apn carrier="Movistar INTERNET" mcc="734" mnc="04" apn="internet.movistar.ve" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" protocol="IPV4V6" type="default,supl,xcap" />
+<apn carrier="Movistar INTERNET" mcc="740" mnc="00" apn="internet.movistar.com.ec" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="movistar" protocol="IPV4V6" type="default,supl,xcap" user="movistar" />
+<apn carrier="Movistar INTERNET" mcc="748" mnc="07" apn="webapn.movistar.com.uy" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19" password="movistar" protocol="IPV4V6" type="default,supl,xcap" user="movistar" />
+</apns>

@@ -1,0 +1,31 @@
+# ==============================================
+# Policy File of /system/bin/capturepackets Executable File
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type capturepackets_exec, exec_type, file_type;
+
+typeattribute capturepackets coredomain;
+typeattribute capturepackets mlstrustedsubject;
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+init_daemon_domain(capturepackets)
+
+# Date : W18.17
+# Operation : MDMI Gen93 development
+# Purpose : For capturepackets to capture IP packets and send to MDMI
+allow capturepackets shell_exec:file { read execute open execute_no_trans getattr };
+allow init self:packet_socket create;
+allow capturepackets self:packet_socket create;
+allow capturepackets md_monitor:unix_stream_socket connectto;
+allow capturepackets self:capability net_raw;
+allow capturepackets self:packet_socket { getopt setopt read write };
+allowxperm capturepackets self:packet_socket ioctl {SIOCGIFINDEX SIOCGSTAMP };
+allow capturepackets self:packet_socket ioctl;
+allow capturepackets self:udp_socket create;
+allow capturepackets self:udp_socket ioctl;

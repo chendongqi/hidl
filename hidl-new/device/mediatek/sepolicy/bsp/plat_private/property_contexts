@@ -1,0 +1,22 @@
+#=============allow atcid==============
+ctl.atcid-daemon-u u:object_r:ctl_atcid-daemon-u_prop:s0
+ctl.atci_service u:object_r:ctl_atci_service_prop:s0
+persist.vendor.radio.port_index  u:object_r:mtk_atci_sys_prop:s0
+vendor.ril.atci.flightmode u:object_r:mtk_atci_sys_prop:s0
+persist.vendor.service.atci.autostart u:object_r:mtk_atci_sys_prop:s0
+persist.vendor.service.atci.usermode u:object_r:mtk_atci_sys_prop:s0
+
+#=============allow md_monitor set prop==============
+persist.vendor.mdmmonitor u:object_r:config_prop:s0
+
+#=============allow mtk aal==============#
+persist.vendor.sys.aal. u:object_r:mtk_aal_prop:s0
+
+#=============allow capturepackets set prop==============
+vendor.capturepackets u:object_r:capturepackets_prop:s0
+
+# hdmi service properties, used for tablet only
+persist.vendor.sys.hdmi.resolution u:object_r:vendor_hdmi_prop:s0
+persist.vendor.sys.hdmi.auto u:object_r:vendor_hdmi_prop:s0
+persist.vendor.sys.hdmi.enable u:object_r:vendor_hdmi_prop:s0
+

@@ -1,0 +1,69 @@
+
+# Policy File of /system/bin/connsyslogger Executable File
+
+# ==============================================
+# Type Declaration
+# ==============================================
+type connsyslogger,domain;
+type connsyslogger_exec, exec_type, file_type;
+typeattribute connsyslogger coredomain;
+# Purpose : for create hidl server
+hal_server_domain(connsyslogger, mtk_hal_log)
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+init_daemon_domain(connsyslogger)
+
+#for logging sdcard access
+allow connsyslogger fuse:dir { create_dir_perms };
+allow connsyslogger fuse:file { create_file_perms };
+
+#consys logger access on /data/consyslog
+allow connsyslogger consyslog_data_file:dir { create_dir_perms relabelto };
+allow connsyslogger consyslog_data_file:fifo_file { create_file_perms };
+allow connsyslogger consyslog_data_file:file { create_file_perms };
+allow connsyslogger system_data_file:dir { create_dir_perms relabelfrom};
+
+#consys logger socket access
+allow connsyslogger property_socket:sock_file write;
+allow connsyslogger init:unix_stream_socket connectto;
+
+allow connsyslogger tmpfs:lnk_file { create_file_perms };
+
+# purpose: avc: denied { read } for name="plat_file_contexts"
+allow connsyslogger file_contexts_file:file { read getattr open };
+
+#logger SD logging in factory mode
+allow connsyslogger vfat:dir create_dir_perms;
+allow connsyslogger vfat:file create_file_perms;
+
+#logger permission in storage in android M version
+allow connsyslogger mnt_user_file:dir search;
+allow connsyslogger mnt_user_file:lnk_file read;
+allow connsyslogger storage_file:lnk_file read;
+
+#permission for use SELinux API
+allow connsyslogger rootfs:file r_file_perms;
+
+#permission for storage access storage
+allow connsyslogger storage_file:dir { create_dir_perms };
+allow connsyslogger storage_file:file { create_file_perms };
+
+#permission for read boot mode
+allow connsyslogger sysfs_boot_mode:file { read open };
+
+allow connsyslogger fw_log_wifi_device:chr_file {read write open ioctl};
+allow connsyslogger fw_log_bt_device:chr_file {read write open ioctl};
+allow connsyslogger fw_log_gps_device:chr_file {read write open ioctl};
+allow connsyslogger fw_log_wmt_device:chr_file {read write open ioctl};
+
+allow connsyslogger sdcardfs:dir { create_dir_perms };
+allow connsyslogger sdcardfs:file { create_file_perms };
+allow connsyslogger rootfs:lnk_file getattr;
+
+allow connsyslogger media_rw_data_file:file  { create_file_perms };
+allow connsyslogger media_rw_data_file:dir { create_dir_perms };
+
+set_prop(connsyslogger, vendor_connsysfw_prop)
+
+

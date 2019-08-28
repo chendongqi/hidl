@@ -1,0 +1,40 @@
+# Date : WK15.43 2015/10/21
+# Operation : MDM IT with Swift app
+# Purpose : for app labeled by radio to connenct to md_monitor
+allow radio md_monitor:unix_stream_socket connectto;
+
+# Date : 2016/12/1
+# Operation : MDM IT with Swift app
+# Purpose : for app labeled by radio to auto start md_monitor
+set_prop(radio, config_prop);
+
+# Date : 2017/0925
+# Operation : Migration IT with Privacy Protection Lock
+# Purpose : for pplSmsFilterExtension find ppl_agent service
+allow radio ppl_agent_service:service_manager find;
+
+# Date : 2017/10/17
+# Operation : MDM IT
+# Purpose : for app labeled by radio to access /data/md_mon/
+#allow radio md_monitor_data_file:dir { read open search };
+#allow radio md_monitor_data_file:file { read open getattr };
+
+# Date : 2018/06/21
+# Operation : P Migration
+# Purpose : Allow to enable ATCI in Engineer Mode
+set_prop(radio, ctl_atcid-daemon-u_prop);
+set_prop(radio, ctl_atci_service_prop);
+set_prop(radio, mtk_atci_sys_prop);
+
+# Date : 2018/06/27
+# Purpose: Allow EM USB/UART switch
+allow radio sysfs_portmode:file r_file_perms;
+allow radio sysfs_android0_usb:dir search;
+allow radio sysfs_android0_usb:file r_file_perms;
+allow radio sysfs_android_usb:dir search;
+allow radio sysfs_android_usb:file r_file_perms;
+
+# Date : 2018/07/09
+# Operation : P Migration
+# Purpose : Allow to on/off AAL in Engineer Mode
+set_prop(radio, mtk_aal_prop);

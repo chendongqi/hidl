@@ -1,0 +1,6 @@
+# HwBinder IPC from clients into server, and callbacks
+binder_call(mtk_hal_apmonitor_client, platform_app)
+binder_call(platform_app, mtk_hal_apmonitor_client)
+
+# give permission for hal client
+allow mtk_hal_apmonitor_client mtk_hal_apmonitor_hwservice:hwservice_manager find;

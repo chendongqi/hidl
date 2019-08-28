@@ -1,0 +1,2 @@
+# add by chendongqi for hidl test
+android.hardware.hidl_test::ITest   u:object_r:ecarx_hidl_test_hwservice:s0
