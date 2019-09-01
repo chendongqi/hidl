@@ -8,7 +8,10 @@ using ::android::hardware::hidl_test::V1_0::ITest;
 
 int main() {
 
+    // 通过绑定式来获取服务
     android::sp<ITest> service = ITest::getService();
+    // 通过直通式来获取服务
+    // android::sp<ITest> service = ITest::getService(true);
     
     if (service == nullptr) {
         printf("Failed to get service\n");

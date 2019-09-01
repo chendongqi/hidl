@@ -1,0 +1,16 @@
+cc_binary {
+    relative_install_path: "hw", 
+    defaults: ["hidl_defaults"],
+    name: "my_helloworld",
+    proprietary: true,
+    srcs: ["TestClient.cpp"],
+
+    shared_libs: [
+        "liblog", 
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "libutils",
+        "android.hardware.helloworld@1.0",
+    ],
+}
