@@ -1,0 +1,4 @@
+# add by chendongqi for binderized hidl test
+attribute ecarx_binderized_test;
+attribute ecarx_binderized_test_server;
+attribute ecarx_binderized_test_client;

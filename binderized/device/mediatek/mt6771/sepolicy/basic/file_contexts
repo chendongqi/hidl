@@ -1,0 +1,17 @@
+#########################################
+# Platform dependent label definitions
+#
+
+# define raw block partition label
+/dev/gps_emi(/.*)? u:object_r:gps_emi_device:s0
+
+# For Google Trusty and M-TEE Secure Storage Proxy
+/data/vendor/trusty(/.*)? u:object_r:tee_data_file:s0
+/dev/block/mmcblk0rpmb u:object_r:rpmb_block_device:s0
+/vendor/bin/storageproxyd u:object_r:tee_exec:s0
+
+/(system\/vendor|vendor)/bin/instantcam u:object_r:instantcam_exec:s0
+
+
+# add by chendongqi for binderized hidl test
+/vendor/bin/hw/android\.hardware\.binderized_test@1\.0-service u:object_r:ecarx_binderized_test_default_exec:s0

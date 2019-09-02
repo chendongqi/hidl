@@ -1,0 +1,5 @@
+package android.hardware.binderized_test@1.0;
+
+interface IBinderizedTest{
+    helloWorld(string name) generates (string result);
+};

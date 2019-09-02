@@ -1,0 +1,2 @@
+# add by chendongqi for binderized hidl test
+android.hardware.binderized_test::IBinderizedTest u:object_r:ecarx_binderized_test_hwservice:s0

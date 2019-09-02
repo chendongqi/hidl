@@ -1,0 +1,2 @@
+# add by chendongqi for binderized hidl test
+type ecarx_binderized_test_hwservice, hwservice_manager_type;

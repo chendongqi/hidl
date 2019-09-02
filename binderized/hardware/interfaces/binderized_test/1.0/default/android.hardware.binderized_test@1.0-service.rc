@@ -1,0 +1,4 @@
+service vendor.binderized_test-hal-1.0 /vendor/bin/hw/android.hardware.binderized_test@1.0-service
+    class hal
+    user system
+    group system

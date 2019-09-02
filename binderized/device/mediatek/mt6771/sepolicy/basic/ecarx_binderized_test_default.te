@@ -1,0 +1,14 @@
+type ecarx_binderized_test_default, domain;
+
+hal_server_domain(ecarx_binderized_test_default, ecarx_binderized_test)
+
+add_hwservice(ecarx_binderized_test_server, ecarx_binderized_test_hwservice)
+hwbinder_use(ecarx_binderized_test_default)
+vndbinder_use(ecarx_binderized_test_default)
+
+type ecarx_binderized_test_default_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(ecarx_binderized_test_default)
+
+
+allow ecarx_binderized_test_default hwservicemanager_prop:file { read getattr open };
